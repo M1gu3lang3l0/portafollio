@@ -1,0 +1,144 @@
+
+body
+{
+   background:#A5C6FF;
+
+}
+.img{
+    width: 90px;
+    height: 48px;
+   
+}
+
+.text-area{
+
+   position: absolute;
+   border:none;
+   outline: none;
+   width: 732px;
+   height: 668px;
+   left: 240px;
+   top: 168px;
+
+   font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color:#0A3871;
+    background-color: inherit;
+    text-transform: lowercase;
+
+}
+
+h1{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    
+    /* Dark blue/dark-blue-300 */
+    
+    color: #0A3871;
+    
+
+}
+
+
+
+
+ .encriptar
+ {
+    position: absolute;
+    left: 235px;
+    background-color: #0A3871;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    height: 57px;
+    border-radius: 20px;
+    bottom: 10px;
+  }
+
+ .desencriptar
+ {
+    position: absolute;
+    left: 530px;
+    width: 250px;
+    height: 57px;
+    background: #D8DFE8;
+    color: #0A3871;
+    padding: 20px;
+    /* Dark blue/dark-blue-300 */
+    
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    bottom: 10px;
+
+    
+   
+ }
+
+ .div-rectangulo{
+
+    display: inline;
+ }
+rectangle{
+
+    position: absolute;
+    width: 400px;
+    height: 880px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+   border-radius: 32px;
+}
+
+.textarea-cifrado{
+
+    width: 400px;
+    height: 880px;
+    background-image: url("../images/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    font-size: xx-large;
+}
+.informacion{
+
+   position: absolute;
+   bottom: 70px;
+   left: 245px;
+}
+.copiar
+{
+   position: absolute;
+   left: 1080px;
+   width: 252px;
+   height: 57px;
+   background: #D8DFE8;
+   color: #0A3871;
+   padding: 20px;
+   /* Dark blue/dark-blue-300 */
+   
+   border: 1px solid #0A3871;
+   border-radius: 24px;
+   background: #D8DFE8;
+   bottom: 15px;
+
+
+   
+  
+}
+

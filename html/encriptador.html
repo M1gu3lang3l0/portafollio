@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/encriptador.css">
+ 
+</head>
+<body>
+
+    <header> <img class="img"src="https://play-lh.googleusercontent.com/IDLZXWHLCVun428g_YGnR2HgnoIUlIRNfkmEEM0hmrzhBKZrhJ5UwM0_eHaWQT4gXAs" > 
+     </header>
+   
+
+<textarea class="text-area" id="textarea">Ingrese Texto Aqui</textarea>
+<div>
+  <h5 class="informacion">Solo letras minusculas y sin acentos</h5>
+</div>
+<div class="div-botones">
+
+    <button class="encriptar" onclick="capturaTextocifrar()">Encriptar</button>
+   <button class="desencriptar"onclick="capturaTextodecifrar()">Desencriptar</button>
+</div>
+ <div class="div-rectangulo">
+    <rectangle>
+      <textarea class="textarea-cifrado" id="textareaCifrado"> </textarea>
+      </rectangle>
+</div>  
+<div class="boton-copiar">
+  <button class="copiar"onclick="copiarTexto()" id="copia">Copiar</button>
+</div>
+   
+   <script src="../js/script.js"> </script>
+</body>
+</html>
